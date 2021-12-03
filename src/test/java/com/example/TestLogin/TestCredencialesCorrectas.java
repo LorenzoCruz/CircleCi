@@ -52,7 +52,7 @@ public class TestCredencialesCorrectas {
     driver.findElement(By.id("username")).sendKeys("a14003176");
     driver.findElement(By.id("password")).click();
     driver.findElement(By.id("password")).clear();
-    driver.findElement(By.id("password")).sendKeys("Gow33vshalo");
+    driver.findElement(By.id("password")).sendKeys("");
     driver.findElement(By.id("loginbtn")).click();
     
     String textoejec=driver.findElement(By.xpath("/html/body/div[2]/nav/ul[2]/li[2]/div/div/div/div/div/a/span/span[1]")).getText();
