@@ -52,7 +52,7 @@ public class TestCredencialesCorrectas {
     driver.findElement(By.id("username")).sendKeys("a14003176");
     driver.findElement(By.id("password")).click();
     driver.findElement(By.id("password")).clear();
-	  //credenciales eliminadas
+	  //contraseña eliminada
     driver.findElement(By.id("password")).sendKeys("");
     driver.findElement(By.id("loginbtn")).click();
     
