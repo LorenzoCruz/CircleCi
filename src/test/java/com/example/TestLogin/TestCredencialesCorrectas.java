@@ -56,7 +56,7 @@ public class TestCredencialesCorrectas {
     driver.findElement(By.id("loginbtn")).click();
     
     String textoejec=driver.findElement(By.xpath("/html/body/div[2]/nav/ul[2]/li[2]/div/div/div/div/div/a/span/span[1]")).getText();
-    String textoesperado="LORENZO DE JESUS CRUZ HUCHIM\n1 intentos de ingreso fallidos desde su último ingreso";
+    String textoesperado="LORENZO DE JESUS CRUZ HUCHIM";
     assertThat(textoesperado,is(textoejec));
   }
 
